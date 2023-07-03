@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alumni Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="container">
+        <h1 id="h1pos">Alumni Registration Form</h1>
+        <hr>
+        <form>
+            <div class="d1"><label class="name">First Name:</label>
+                <input class="inputbox" type="text" name="fname" required/>
+                <label class="name">Middle Name:</label>
+                <input class="inputbox" type="text" name="mname" required/>
+                <label class="name">Last Name:</label>
+                <input class="inputbox" type="text" name="lname" required/>
+            </div>
+            
+                <label class="name">Course:</label>   
+                <select class="name">
+                    <option selected>-Course-</option>
+                    <option value="ece">Electronics Engineering</option>
+                    <option value="cpe">Computer Engineering</option>
+                    <option value="me">Mechanical Engineering</option>
+                    <option value="ce">Civil Engineering</option>
+                    <option value="ee">Electrical Engineering</option>
+                </select><br>
+            
+           
+                <label class="name">Gender:</label>
+                <div class="name"><input type="radio" name="Gender" id="Female"/>Female 
+                    <input type="radio" name="Gender" id="Male"/>Male 
+                    <input type="radio" name="Gender" id="Other"/>Other
+                </div><br>
+            
+                <div class="name"><label>Phone:</label>
+                    <input class="code" type="tel" value="+63" />
+                    <input type="tel" name="phone" /></div><br>
+           
+                <div class="d1"><label class="name">Address:</label>
+                    <textarea class="inputbox" cols="70" rows="5" value="Address" ></textarea>
+                
+                    <label class="name">Email:</label>
+                    <input class="inputbox" type="email" name="email" />
+                    <label class="name">Password:</label>
+                    <input class="inputbox" type="password" name="pword" />
+                    <label class="name">Re-type password:</label>
+                    <input class="inputbox" type="password" name="rpword" />
+                </div>
+                <div id="submit"><input id="button" type="submit" name="submit" value="Register" /></div>
+            
+        </form>
+</body>
+</html>
